@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ConsoleGame
+# Project: untitled1
 # Configurations: Debug
 # =============================================================================
 
@@ -39,58 +39,64 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Uczen/Desktop/ConsoleGame/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Kamil/Desktop/CPP/ConsoleGame/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ConsoleGame
+# Object build statements for EXECUTABLE target untitled1
 
 
 #############################################
-# Order-only phony target for ConsoleGame
+# Order-only phony target for untitled1
 
-build cmake_object_order_depends_target_ConsoleGame: phony || .
+build cmake_object_order_depends_target_untitled1: phony || .
 
-build CMakeFiles/ConsoleGame.dir/main.cpp.obj: CXX_COMPILER__ConsoleGame_unscanned_Debug C$:/Users/Uczen/Desktop/ConsoleGame/main.cpp || cmake_object_order_depends_target_ConsoleGame
-  DEP_FILE = CMakeFiles\ConsoleGame.dir\main.cpp.obj.d
+build CMakeFiles/untitled1.dir/main.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/Kamil/Desktop/CPP/ConsoleGame/main.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ConsoleGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\ConsoleGame.dir
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
-build CMakeFiles/ConsoleGame.dir/Classes/Map.cpp.obj: CXX_COMPILER__ConsoleGame_unscanned_Debug C$:/Users/Uczen/Desktop/ConsoleGame/Classes/Map.cpp || cmake_object_order_depends_target_ConsoleGame
-  DEP_FILE = CMakeFiles\ConsoleGame.dir\Classes\Map.cpp.obj.d
+build CMakeFiles/untitled1.dir/Classes/Map.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/Kamil/Desktop/CPP/ConsoleGame/Classes/Map.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Classes\Map.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ConsoleGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\ConsoleGame.dir\Classes
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Classes
 
-build CMakeFiles/ConsoleGame.dir/Enums/Difficulty.cpp.obj: CXX_COMPILER__ConsoleGame_unscanned_Debug C$:/Users/Uczen/Desktop/ConsoleGame/Enums/Difficulty.cpp || cmake_object_order_depends_target_ConsoleGame
-  DEP_FILE = CMakeFiles\ConsoleGame.dir\Enums\Difficulty.cpp.obj.d
+build CMakeFiles/untitled1.dir/Enums/Difficulty.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/Kamil/Desktop/CPP/ConsoleGame/Enums/Difficulty.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Enums\Difficulty.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ConsoleGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\ConsoleGame.dir\Enums
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Enums
+
+build CMakeFiles/untitled1.dir/Classes/MapRenderer.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/Kamil/Desktop/CPP/ConsoleGame/Classes/MapRenderer.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Classes\MapRenderer.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Classes
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ConsoleGame
+# Link build statements for EXECUTABLE target untitled1
 
 
 #############################################
-# Link the executable ConsoleGame.exe
+# Link the executable untitled1.exe
 
-build ConsoleGame.exe: CXX_EXECUTABLE_LINKER__ConsoleGame_Debug CMakeFiles/ConsoleGame.dir/main.cpp.obj CMakeFiles/ConsoleGame.dir/Classes/Map.cpp.obj CMakeFiles/ConsoleGame.dir/Enums/Difficulty.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.obj CMakeFiles/untitled1.dir/Classes/Map.cpp.obj CMakeFiles/untitled1.dir/Enums/Difficulty.cpp.obj CMakeFiles/untitled1.dir/Classes/MapRenderer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ConsoleGame.dir
+  OBJECT_DIR = CMakeFiles\untitled1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ConsoleGame.exe
-  TARGET_IMPLIB = libConsoleGame.dll.a
-  TARGET_PDB = ConsoleGame.exe.dbg
+  TARGET_FILE = untitled1.exe
+  TARGET_IMPLIB = libuntitled1.dll.a
+  TARGET_PDB = untitled1.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Uczen\Desktop\ConsoleGame\cmake-build-debug && C:\Users\Uczen\Desktop\CLion-2024.3.win\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Kamil\Desktop\CPP\ConsoleGame\cmake-build-debug && C:\Users\Kamil\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -101,7 +107,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Uczen\Desktop\ConsoleGame\cmake-build-debug && C:\Users\Uczen\Desktop\CLion-2024.3.win\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Uczen\Desktop\ConsoleGame -BC:\Users\Uczen\Desktop\ConsoleGame\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Kamil\Desktop\CPP\ConsoleGame\cmake-build-debug && C:\Users\Kamil\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Kamil\Desktop\CPP\ConsoleGame -BC:\Users\Kamil\Desktop\CPP\ConsoleGame\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +117,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ConsoleGame: phony ConsoleGame.exe
+build untitled1: phony untitled1.exe
 
 # =============================================================================
 # Folder targets.
@@ -119,9 +125,9 @@ build ConsoleGame: phony ConsoleGame.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Uczen/Desktop/ConsoleGame/cmake-build-debug
+# Folder: C:/Users/Kamil/Desktop/CPP/ConsoleGame/cmake-build-debug
 
-build all: phony ConsoleGame.exe
+build all: phony untitled1.exe
 
 # =============================================================================
 # Built-in targets
@@ -130,14 +136,14 @@ build all: phony ConsoleGame.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Uczen/Desktop/ConsoleGame/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Kamil/Desktop/CPP/ConsoleGame/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/Uczen/Desktop/CLion-2024.3.win/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Uczen/Desktop/ConsoleGame/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/Kamil/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/Kamil/Desktop/CPP/ConsoleGame/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

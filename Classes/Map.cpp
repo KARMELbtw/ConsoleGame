@@ -1,5 +1,4 @@
 #include "Map.h"
-#include <iostream>
 #include <map>
 
 using namespace std;
@@ -10,20 +9,21 @@ Map::Map(int width, int height, Difficulty difficulty) {
     this->height = height;
     this->difficulty = difficulty;
 
-    map = vector(width, vector(height, '.'));
+    map = vector<vector<string>>(width, vector<string>(height, "X"));
 }
+
+Map::Map() {}
 
 void Map::generateMap() {
-
+    for (int x = 0; x < width; x++) {
+        for (int y = 0; y < height; y++) {
+            map[x][y] = "X";
+        }
+    }
 }
 
-void Map::displayMap() {
-    for (int y = 0; y < height; y++) {
-        for (int x = 0; x < width; x++ ) {
-            cout << map[y][x];
-        }
-        cout << endl;
-    }
+const vector<vector<string>> &Map::getMap() const {
+    return map;
 }
 
 
