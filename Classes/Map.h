@@ -2,6 +2,7 @@
 #define MAP_H
 
 #include <vector>
+#include <iostream>
 
 #include "../Enums/Difficulty.cpp"
 
@@ -11,15 +12,19 @@ class Map {
 public:
     Map(int height, int width, Difficulty difficulty);
 
+    Map();
+
     void generateMap();
-    void displayMap();
+    void createMapEdges();
     void saveMap();
+
+    [[nodiscard]] const vector<vector<string>> &getMap() const;
 
 private:
     int height;
     int width;
     Difficulty difficulty;
-    vector<vector<char>> map;
+    vector<vector<string>> map;
 };
 
 #endif //MAP_H
