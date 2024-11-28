@@ -1,0 +1,3 @@
+C:/Users/Uczen/Desktop/ConsoleGame/cmake-build-debug/CMakeFiles/ConsoleGame.dir
+C:/Users/Uczen/Desktop/ConsoleGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Uczen/Desktop/ConsoleGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
